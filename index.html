@@ -12,6 +12,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/animate.css">
 
       
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -51,14 +53,25 @@
     
       <div class="jumbotron">
           <div class = "container">
-            <h1>Distracker</h1> 
+            <h1>Dis<span style="color: #c42342;">tracker</span></h1> 
             <p>Distracted by social media? Let us help you track your social media usage.</p> 
               
+          </div>
+          <div class="container">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <center><img src="images/mainscreen.png" class="wow fadeInUp animated" data-wow-delay="0.5s" alt="mainmenu" id="mainscreen"></center>
+            </div>
+            <div class="col-md-4">
+              <center><img src="images/statscreen.png" class="wow fadeInUp animated" data-wow-delay="0.8s" alt="statsscreen" id="statscreen"></center>
+            </div>
+            <div class="col-md-4">
+                </div>
           </div>
 
       </div>
 
-    <div class="container">
+<div class="container">
         <div id="about">
           <h1 class="header"><span>About</span></h1>
           <center><img src="images/dristracker_mascot.gif" alt="doodle" style="width:304px;height:228px;"></center>
@@ -77,19 +90,19 @@ Distracker is an application that measures how much time an individual spends on
                     <center><img src="images/statscreen.png" alt="statsscreen"></center>
                 </div>
             </div>
-            <p><b>How It Works:</b></p>
+            <p><strong>How It Works:</strong></p>
             <ul>
                 <li>Runs securely in the background on your mobile device, measuring and reporting the time an individual spends on social media applications on a daily, weekly and monthly basis</li>
             </ul>
-            <p></b>Features:</b></p>
+            <p><strong>Features:</strong></p>
             <ul>
                 <li>Notifies an individual how much time they have spent on social media applications</li>
                 <li>Logs the individuals daily, weekly, and monthly usage</li>
             </ul>
-            <p><b>Next Steps:</b></p>
+            <p><strong>Next Steps:</strong></p>
             <ul>
                <li>Expand the distractment tracker to all applications, including: all social media, game, sports, and any other applications</li> 
-			   <li>Add a blocking application feature which allows the user to block usage on an application for a certain period of time or to block them completely</li>
+         <li>Add a blocking application feature which allows the user to block usage on an application for a certain period of time or to block them completely</li>
                <li>Add notifications to inform users of how much time they are spending on certain applications</li>
                <li>Set goals in order to reduce the time an individual spends on their mobile device</li>
                <li>Set alarms when an individual spends more than x amount of hours on a certain application </li>
@@ -119,6 +132,10 @@ Distracker is an application that measures how much time an individual spends on
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     </body>
 
 </html>

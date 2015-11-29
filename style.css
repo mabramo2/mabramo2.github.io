@@ -59,18 +59,24 @@ a:hover, a:visited:hover{
     width: 100%;
     overflow-x: hidden;
     background-image:url(images/headerPhoto2.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; 
+    overflow: hidden;
 }
 
 .jumbotron img {
-	position: relative;
-	display: block;
+    position: relative;
+    display: block;
 
     background-size: cover;
     display: inline-block;
     height: 100vh;
+}
+
+.jumbotron h1 {
+    font-family: 'Chewy';
+    color: #c42342;
 }
 
 .meetDoodle{
@@ -95,4 +101,15 @@ a:hover, a:visited:hover{
     padding-top: 5px;
 }
 
+#mainscreen {
+    top: 50px;
+    margin: auto;
+    overflow-y: hidden;
+    z-index: 1;
+}
 
+#statscreen {
+    top: 30px;
+    margin: auto;
+    overflow-y: hidden;
+}
