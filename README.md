@@ -1,2 +1,2 @@
-# mabramo2.github.io
-Distracker Website
+# distracker-website
+Website to Distracker Android App
