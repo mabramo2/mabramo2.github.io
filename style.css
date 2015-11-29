@@ -1,0 +1,98 @@
+a:link{
+    text-decoration-color: #FE6060;
+}
+
+a:hover, a:visited:hover{
+    color:#FE6060;
+}
+
+.header{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: black;
+    font-size: 4.5em;
+    
+    display: block;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.header > span {
+    position: relative;
+    display: inline-block;
+}
+
+.header > span:before,
+.header > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 2px;
+    background: #FE6060;
+}
+
+.header > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.header > span:after {
+  margin-left: 15px;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+    background-image:url(images/background.png);
+    background-repeat:repeat;
+    background-position: center;
+}
+
+
+.jumbotron {
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    font-weight: 100;
+    margin-top: 50px;
+    width: 100%;
+    overflow-x: hidden;
+    background-image:url(images/headerPhoto2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.jumbotron img {
+	position: relative;
+	display: block;
+
+    background-size: cover;
+    display: inline-block;
+    height: 100vh;
+}
+
+.meetDoodle{
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    color: black;
+    font-size: 3.6em;
+}
+
+#about,
+#future,
+#download {
+    margin-bottom: 50px;
+}
+
+#footer {
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: .9em;
+    color: #FE6060;
+    border-top: 1px solid #FE6060;
+    padding-top: 5px;
+}
+
+
